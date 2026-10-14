@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Generate Default Word Doc",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "generate_doc.py",
+                "client_name=Test Company & Partners",
+                "date=2026-10-14"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
+

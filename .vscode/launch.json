@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run with Default Files",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "client_name=Standard & Poor's",
+                "code=#123*abc",
+                "condition=A < B"
+            ]
+        },
+        {
+            "name": "Python: Run with Custom Flags",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "-t", "invoice_template.docx",
+                "-o", "january_invoice.docx",
+                "client_name=Acme Corp",
+                "amount=$1,500"
+            ]
+        }
+    ]
+}
+

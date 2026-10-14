@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        // The core Python integration tool (linting, debugging, environment switching)
+        "ms-python.python",
+
+        // Pylance: Language server providing fast auto-complete and type checking
+        "ms-python.vscode-pylance",
+
+        // The industry-standard tool for auto-formatting Python files on save
+        "ms-python.black-formatter",
+
+        // Useful if you ever want to preview JSON files (like configurations) cleanly
+        "ms-custom.unjson"
+    ],
+    "unwantedRecommendations": [
+        // Prevents VS Code from recommending competing or outdated linting extensions
+        "ms-python.flake8"
+    ]
+}
