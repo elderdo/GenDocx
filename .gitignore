@@ -1,1 +1,15 @@
+# Word outputs
 *.docx
+~$*.docx
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
