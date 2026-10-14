@@ -6,7 +6,7 @@
     ],
 
     // Automatically select the Python interpreter from your local virtual environment
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
 
     // Code Formatting Settings (Uses Python's standard black or autopep8 formatter)
     "editor.formatOnSave": true,
