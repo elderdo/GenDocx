@@ -1,31 +1,29 @@
 {
-    // Auto-detect virtual environment folders (like .venv or venv) in this folder
-    "python.venvFolders": [
-        ".venv",
-        "venv"
-    ],
+  // Auto-detect virtual environment folders (like .venv or venv) in this folder
+  "python.venvFolders": [".venv", "venv"],
 
-    // Automatically select the Python interpreter from your local virtual environment
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  // Automatically select the Python interpreter from your local virtual environment
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
 
-    // Code Formatting Settings (Uses Python's standard black or autopep8 formatter)
-    "editor.formatOnSave": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        }
-    },
+  // Code Formatting Settings (Uses Python's standard black or autopep8 formatter)
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
 
-    // File Explorer Cleanup
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.pytest_cache": true,
-        "**/Thumbs.db": true,
-        "**/.DS_Store": true
-    },
+  // File Explorer Cleanup
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/Thumbs.db": true,
+    "**/.DS_Store": true
+  },
 
-    // Analysis and Linting configuration
-    "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true
+  // Analysis and Linting configuration
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "cSpell.words": ["docxtpl"]
 }
